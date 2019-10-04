@@ -1,0 +1,17 @@
+Code
+
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> bin(25)
+'0b11001'
+>>> 0b0101
+5
+>>> oct(25)
+'0o31'
+>>> hex(25)
+'0x19'
+>>> hex(10)
+'0xa'
+>>> 0xf
+15
+>>>
