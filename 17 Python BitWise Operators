@@ -1,0 +1,19 @@
+Code
+
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> ~12
+-13
+>>> 12 & 13
+12
+>>> 12 | 13
+13
+>>> 25 & 30
+24
+>>> 12 ^ 1
+13
+>>> 12 ^ 13
+1
+>>> 25 ^ 30
+7
+>>>
