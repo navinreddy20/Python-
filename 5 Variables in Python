@@ -1,0 +1,80 @@
+Code
+
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 2 + 3
+5
+>>> x = 2
+>>> x + 3
+5
+>>> y = 3
+>>> x + y
+5
+>>> x = 9
+>>> x + y
+12
+>>> x
+9
+>>> abc
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    abc
+NameError: name 'abc' is not defined
+>>> x + 10
+19
+>>> _ + y
+22
+>>> name = 'youtube'
+>>> name
+'youtube'
+>>> mane + ' rocks'
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    mane + ' rocks'
+NameError: name 'mane' is not defined
+>>> name + ' rocks'
+'youtube rocks'
+>>> name ' rocks'
+SyntaxError: invalid syntax
+>>> name [0]
+'y'
+>>> name [6]
+'e'
+>>> name [8]
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    name [8]
+IndexError: string index out of range
+>>> name [-1]
+'e'
+>>> name [-2]
+'b'
+>>> name [-7]
+'y'
+>>> name [0:2]
+'yo'
+>>> name [1:4]
+'out'
+>>> name [1:]
+'outube'
+>>> name[:4]
+'yout'
+>>> [3:10]
+SyntaxError: invalid syntax
+>>> name [3:10]
+'tube'
+>>> name [0:3] = 'my'
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    name [0:3] = 'my'
+TypeError: 'str' object does not support item assignment
+>>> name[0] = 'R'
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    name[0] = 'R'
+TypeError: 'str' object does not support item assignment
+>>> 'my ' + name[3:]
+'my tube'
+>>> myname = 'Navin Reddy'
+>>> len(myname)
+11
