@@ -16,9 +16,9 @@ def search(list, n):
             return True
         else:
             if list[mid] < n:
-                l = mid+1;
+                l = mid+1
             else:
-                u = mid-1;
+                u = mid-1
 
     return False
 
