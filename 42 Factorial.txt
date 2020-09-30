@@ -10,9 +10,9 @@ def fact(n):
     return f
 
 
-x = 4
+n = 4
 
-result = fact(x)
+result = fact(n)
 
 
 print(result)
