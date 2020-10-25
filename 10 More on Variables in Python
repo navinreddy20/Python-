@@ -38,4 +38,5 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> PI = 3.15
 >>> type(PI)
 <class 'float'>
->>>
+>>> 2 + 5
+print("Hello World)
