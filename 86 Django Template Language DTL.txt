@@ -45,5 +45,7 @@ urlpatterns = [
 --------------------------------------------------------------------------------
                               settings.py 
 --------------------------------------------------------------------------------
-
- 'DIRS': [os.path.join(BASE_DIR, 'templates')],
+'top of the program':
+import os 
+from pathlib import Path 
+'DIRS': [os.path.join(BASE_DIR, 'telusko/templates')],
