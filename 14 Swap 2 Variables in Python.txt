@@ -45,3 +45,9 @@ else:
     print("prime")
 
 
+----------------
+swap 2 variables
+-------------------
+a=10
+b=20
+a,b=b,a
